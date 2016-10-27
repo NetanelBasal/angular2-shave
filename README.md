@@ -1,20 +1,14 @@
-# Angular 2 package starter
+# Angular 2 shave
 
-Easy to use package starter for Angular 2. Create open source modules/directive/components/pipes.
-Helps to create NPM package and publish it easily.
+Angular 2 directive for the [shave](https://dollarshaveclub.github.io/shave/) library - A modern javascript plugin for truncating text within a html element.
 
 ## Installation
-- clone this repository
-- run one of the following commands: 
-   - `npm install`
-   - `yarn install`
+`npm install angular2-shave --save`
 
-## Run tests
-`npm test`
-
-## Publishing package
-- describe your module well in README.md and bump version
-- run `npm publish`
+## Usage
+```html
+<div [shave]="{character: '✁', classname: 'myclass' }" [shaveHeight]="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur deserunt dolore dolores ea esse expedita, recusandae sint totam velit. Beatae deserunt expedita, laborum nobis placeat quibusdam recusandae similique sit!</div>
+```
 
 
 ## License
