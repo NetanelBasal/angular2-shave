@@ -6,6 +6,9 @@ Angular 2 directive for the [shave](https://dollarshaveclub.github.io/shave/) li
 `npm install angular2-shave --save`
 
 ## Usage
+```js
+import { ShaveDirective } from "angular2-shave";
+```
 ```html
 <div [shave]="{character: '✁', classname: 'myclass' }" [shaveHeight]="200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur deserunt dolore dolores ea esse expedita, recusandae sint totam velit. Beatae deserunt expedita, laborum nobis placeat quibusdam recusandae similique sit!</div>
 ```
