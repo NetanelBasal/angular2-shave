@@ -45,6 +45,9 @@ export var ShaveDirective = (function () {
         }
         shave(this.ele.nativeElement, this.shaveHeight, this.shave);
     };
+    ShaveDirective.prototype.ngAfterViewInit = function() {
+      this._runShave();
+    };
     __decorate([
         Input(), 
         __metadata('design:type', Object)
